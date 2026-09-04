@@ -1,0 +1,12 @@
+{
+  "name": "opencode-snap-to-bottom",
+  "version": "0.1.0",
+  "description": "Terminal-style snap-to-bottom for the opencode transcript",
+  "license": "MIT",
+  "type": "module",
+  "keywords": ["opencode", "opencode-plugin", "tui"],
+  "exports": {
+    "./tui": "./index.js"
+  },
+  "files": ["index.js", "README.md"]
+}
