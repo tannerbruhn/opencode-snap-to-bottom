@@ -1,6 +1,6 @@
 {
   "name": "opencode-snap-to-bottom",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Terminal-style snap-to-bottom for the opencode transcript",
   "license": "MIT",
   "type": "module",
