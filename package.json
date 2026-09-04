@@ -1,6 +1,6 @@
 {
   "name": "opencode-snap-to-bottom",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Terminal-style snap-to-bottom for the opencode transcript",
   "license": "MIT",
   "type": "module",
@@ -32,5 +32,8 @@
   "homepage": "https://github.com/tannerbruhn/opencode-snap-to-bottom#readme",
   "bugs": {
     "url": "https://github.com/tannerbruhn/opencode-snap-to-bottom/issues"
+  },
+  "engines": {
+    "opencode": ">=1.18.27"
   }
 }
