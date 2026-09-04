@@ -7,7 +7,7 @@
 // re-implemented. It already pins during streaming and after submit; this
 // plugin adds the keystroke rule.
 //
-// Options (tui.json -> ["./tui-plugin/snap-to-bottom.js", { ... }]):
+// Options (tui.json -> ["opencode-snap-to-bottom", { ... }]):
 //   trigger  "any-key" (default) every keystroke except the scroll commands,
 //                                the way a terminal treats scrollback
 //            "typing"            only characters actually landing in the prompt
@@ -91,7 +91,7 @@ function findTranscript(node) {
 }
 
 export default {
-  id: "snap-to-bottom",
+  id: "opencode-snap-to-bottom",
   tui: async (api, options) => {
     const config = { ...DEFAULTS, ...(options ?? {}) }
 
