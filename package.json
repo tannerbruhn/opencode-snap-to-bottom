@@ -4,9 +4,33 @@
   "description": "Terminal-style snap-to-bottom for the opencode transcript",
   "license": "MIT",
   "type": "module",
-  "keywords": ["opencode", "opencode-plugin", "tui"],
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "tui",
+    "opencode-tui",
+    "scroll",
+    "scrollback",
+    "transcript"
+  ],
   "exports": {
     "./tui": "./index.js"
   },
-  "files": ["index.js", "README.md"]
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "author": {
+    "name": "Tanner Bruhn",
+    "url": "https://github.com/tannerbruhn"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tannerbruhn/opencode-snap-to-bottom.git"
+  },
+  "homepage": "https://github.com/tannerbruhn/opencode-snap-to-bottom#readme",
+  "bugs": {
+    "url": "https://github.com/tannerbruhn/opencode-snap-to-bottom/issues"
+  }
 }
